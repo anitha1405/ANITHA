@@ -3,12 +3,10 @@
 int main()
 {
 char s[10];
-int len,i;
+int len;
 scanf("%s",s);
-len=strlen(s);
-for(i=0;i<len;i++)
-{
-printf("%d",&s);
+len=atoi(s);
+printf("%d",len);
 }
 return 0;
 }
